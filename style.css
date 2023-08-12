@@ -1,0 +1,129 @@
+@media (max-width: 375px)
+{
+    .boxes{
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+        height: 750px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .boxes .box1{
+        border-radius: 15px 15px 0px 0px;
+    }
+    .boxes .box3{
+        border-radius: 0px 0px 15px 15px;
+    }
+
+}
+
+body{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    background-color: hsl(0, 0%, 95%);
+    width: 95vw;
+    height: 95vh;
+}
+
+.container{
+    display: flex;
+    width: 95vw;
+    height: 95vh;
+    justify-content: center;
+}
+
+.boxes{
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    width: 750px;
+    height: 500px;
+}
+
+.container h1{
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+}
+
+.container p{
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.box1{
+    border-radius: 10px 0px 0px 10px;
+    width: 250px;
+    height: 350px;
+    background-color: hsl(31, 77%, 52%);
+    padding: 40px;
+}
+
+.box2{
+    width: 250px;
+    height: 350px;
+    background-color: hsl(184, 100%, 22%);
+    padding: 40px;
+}
+
+.box3{
+    border-radius: 0px 10px 10px 0px;
+    width: 250px;
+    height: 350px;
+    background-color: hsl(179, 100%, 13%);
+    padding: 40px;
+}
+
+.box1 button{
+    text-decoration: none;
+    background-color: hsl(0, 0%, 95%);
+    margin-top: 40px;
+    width: 120px;
+    height: 35px;
+    color: hsl(31, 77%, 52%);
+    border: solid  hsl(0, 0%, 95%);
+    border-radius: 17.5px;
+}
+
+
+.box2 button{
+    background-color: hsl(0, 0%, 95%);
+    margin-top: 57.5px;
+    width: 120px;
+    height: 35px;
+    color: hsl(184, 100%, 22%);
+    border: solid  hsl(0, 0%, 95%);
+    border-radius: 17.5px;
+}
+
+.box3 button{
+    background-color: hsl(0, 0%, 95%);
+    margin-top: 38px;
+    width: 120px;
+    height: 35px;
+    color: hsl(179, 100%, 13%);
+    border: solid  hsl(0, 0%, 95%);
+    border-radius: 17.5px;
+}
+
+.box1 button:active , .box1 button:hover{
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+    border: 1px solid  hsl(0, 0%, 95%);
+    transition: 0.2s;
+}
+
+
+.box2 button:active , .box2 button:hover{
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+    border: 1px solid  hsl(0, 0%, 95%);
+    transition: 0.2s;
+}
+
+
+.box3 button:active , .box3 button:hover{
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+    border: 1px solid  hsl(0, 0%, 95%);
+    transition: 0.2s;
+}
